@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Restaurant </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navigation Header -->
+    <header class="site-nav">
+        <div class="container nav-inner">
+            <a href="#" class="brand">
+                <div class="brand-icon">🍴</div>
+                <div class="brand-text">
+                    <h1>Foodie Restaurant</h1>
+                    <span>Bhopal, Madhya Pradesh</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#specials">Chef's Specials</a>
+                <a href="#menu">Menu Card</a>
+                <a href="#book-table">Book Table</a>
+                <a href="#about">About & Hours</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#book-table" class="btn btn-primary nav-cta">Book Table</a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-pill">🌿 Bhopal's Royal Vegetarian Dining Destination</span>
+            <h1>Delicious Food • Fresh Ingredients • Great Taste</h1>
+            <p>Experience the culinary art of slow-cooked authentic Indian recipes—from our royal <strong>Hyderabadi Veg Biryani</strong> cooked on dum, to creamy melt-in-mouth <strong>Butter Paneer</strong> and crispy tandoori starters.</p>
+
+            <div class="hero-cta-group">
+                <a href="#book-table" class="btn btn-primary">Book Your Table</a>
+                <a href="#menu" class="btn btn-outline">Explore Menu Card</a>
+            </div>
+
+            <div class="hero-highlights">
+                <div class="hero-card">
+                    <strong>⭐ 4.9 / 5 Guest Rating</strong>
+                    <span>Over 2,500+ happy dining guests</span>
+                </div>
+                <div class="hero-card">
+                    <strong>🌿 100% Pure Vegetarian</strong>
+                    <span>Desi ghee & fresh farm ingredients</span>
+                </div>
+                <div class="hero-card">
+                    <strong>📍 Bhopal, Madhya Pradesh</strong>
+                    <span>Direct Call: 98765 43210</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Chef's Specials Spotlight -->
+    <section id="specials" class="specials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="kicker">Signature Creations</span>
+                <h2>Chef's Special Recommendations</h2>
+                <div class="gold-line"></div>
+                <p>Handcrafted with freshly pounded whole spices, traditional dum slow-cooking, and fresh malai paneer.</p>
+            </div>
+
+            <div class="specials-grid">
+                <!-- Special 1: Hyderabadi Veg Biryani -->
+                <article class="special-card">
+                    <div class="special-media">
+                        <div class="media-placeholder">🍛</div>
+                        <img src="images/hyderabadi-biryani.jpg" alt="Hyderabadi Veg Biryani" class="special-img" loading="lazy" onerror="this.remove()">
+                        <span class="badge-special">Chef's Signature</span>
+                        <span class="badge-veg">Pure Veg · Dum Cooked</span>
+                    </div>
+                    <div class="special-body">
+                        <div>
+                            <div class="special-title-row">
+                                <div>
+                                    <h3>Hyderabadi Veg Biryani</h3>
+                                </div>
+                                <span class="special-price">₹240</span>
+                            </div>
+                            <p class="special-desc">Royal long-grain basmati rice cooked on sealed clay-pot 'Dum' with exotic spices, saffron strands, fresh vegetables, and caramelized fried onions. Served with mint raita and mirchi salan.</p>
+                            <ul class="special-features">
+                                <li>Fragrant aged basmati rice with real saffron</li>
+                                <li>Served with spiced raita and rich salan</li>
+                            </ul>
+                        </div>
+                        <a href="#book-table" class="btn-card-action">Reserve Table to Taste →</a>
+                    </div>
+                </article>
+
+                <!-- Special 2: Butter Paneer -->
+                <article class="special-card">
+                    <div class="special-media">
+                        <div class="media-placeholder">🍲</div>
+                        <img src="images/butter-paneer.jpg" alt="Butter Paneer Makhani" class="special-img" loading="lazy" onerror="this.remove()">
+                        <span class="badge-special">Royal Favorite</span>
+                        <span class="badge-veg">Pure Veg · Creamy Velvet</span>
+                    </div>
+                    <div class="special-body">
+                        <div>
+                            <div class="special-title-row">
+                                <div>
+                                    <h3>Butter Paneer (Makhani)</h3>
+                                </div>
+                                <span class="special-price">₹230</span>
+                            </div>
+                            <p class="special-desc">Fresh, melt-in-mouth cottage cheese paneer cubes simmered in a luscious tomato-cashew satin gravy with churned butter, fresh cream, and aromatic roasted kasuri methi.</p>
+                            <ul class="special-features">
+                                <li>Silky roasted cashew and Kashmiri chili satin gravy</li>
+                                <li>Freshly churned soft farm cottage cheese</li>
+                            </ul>
+                        </div>
+                        <a href="#book-table" class="btn-card-action">Reserve Table to Taste →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Menu Card Section -->
+    <section id="menu" class="menu-section section-padding">
+        <div class="container">
+            <div class="menu-card-wrap">
+                
+                <!-- Banner Header -->
+                <div class="menu-top-banner">
+                    <h2>🍴 Foodie Restaurant - Menu Card</h2>
+                    <p>Delicious Food • Fresh Ingredients • Great Taste</p>
+                </div>
+
+                <!-- Controls: Search & Category Tabs -->
+                <div class="menu-controls">
+                    <div class="search-box">
+                        <input type="text" id="menuSearch" placeholder="🔍 Search any dish (e.g. Biryani, Paneer, Spring Rolls)...">
+                    </div>
+
+                    <div class="menu-tabs">
+                        <button class="tab-btn active" data-category="all">🍽️ All Dishes</button>
+                        <button class="tab-btn" data-category="starters">🍕 Starters</button>
+                        <button class="tab-btn" data-category="main-course">🍛 Main Course</button>
+                        <button class="tab-btn" data-category="desserts">🍰 Desserts</button>
+                        <button class="tab-btn" data-category="beverages">☕ Beverages</button>
+                    </div>
+                </div>
+
+                <!-- Category 1: Starters -->
+                <div class="menu-category-block" data-category="starters">
+                    <div class="category-heading">
+                        <span>🍕 Starters</span>
+                        <span class="count">4 Items</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Veg Spring Rolls</h4>
+                            <p>Crispy golden rolls stuffed with fresh shredded vegetables & sweet chili dip</p>
+                        </div>
+                        <span class="menu-row-price">₹120</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Paneer Tikka</h4>
+                            <p>Clay-oven char grilled cottage cheese marinated in spiced hung yogurt</p>
+                        </div>
+                        <span class="menu-row-price">₹180</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> French Fries</h4>
+                            <p>Crispy golden potato fries tossed with herb salt seasoning & dips</p>
+                        </div>
+                        <span class="menu-row-price">₹100</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Crispy Corn Salt & Pepper</h4>
+                            <p>Golden sweet corn kernels tossed with crushed pepper, scallions, and lemon</p>
+                        </div>
+                        <span class="menu-row-price">₹140</span>
+                    </div>
+                </div>
+
+                <!-- Category 2: Main Course -->
+                <div class="menu-category-block" data-category="main-course">
+                    <div class="category-heading">
+                        <span>🍛 Main Course</span>
+                        <span class="count">6 Items</span>
+                    </div>
+
+                    <div class="menu-row is-special">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Hyderabadi Veg Biryani <span class="tag-spec">★ Chef Special</span></h4>
+                            <p>Fragrant royal basmati rice cooked on dum with vegetables, saffron, and fried onions</p>
+                        </div>
+                        <span class="menu-row-price">₹240</span>
+                    </div>
+
+                    <div class="menu-row is-special">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Butter Paneer <span class="tag-spec">★ Chef Special</span></h4>
+                            <p>Cubes of soft paneer in rich buttery cashew and ripe tomato velvet gravy</p>
+                        </div>
+                        <span class="menu-row-price">₹230</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Paneer Butter Masala</h4>
+                            <p>Traditional cottage cheese cooked in creamy tomato gravy with gentle Indian spices</p>
+                        </div>
+                        <span class="menu-row-price">₹220</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Veg Biryani</h4>
+                            <p>Fragrant basmati rice gently cooked with fresh diced garden vegetables and mint</p>
+                        </div>
+                        <span class="menu-row-price">₹180</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Dal Tadka</h4>
+                            <p>Yellow lentils tempered with fragrant desi ghee, cumin seeds, garlic, and red chili</p>
+                        </div>
+                        <span class="menu-row-price">₹140</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Dal Makhani</h4>
+                            <p>Black lentils slow-cooked overnight with fresh churned butter and cream</p>
+                        </div>
+                        <span class="menu-row-price">₹190</span>
+                    </div>
+                </div>
+
+                <!-- Category 3: Desserts -->
+                <div class="menu-category-block" data-category="desserts">
+                    <div class="category-heading">
+                        <span>🍰 Desserts</span>
+                        <span class="count">3 Items</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Gulab Jamun</h4>
+                            <p>Warm, melt-in-mouth milk dumplings soaked in cardamom and rose sugar syrup</p>
+                        </div>
+                        <span class="menu-row-price">₹80</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Chocolate Brownie</h4>
+                            <p>Warm Belgian dark chocolate fudge brownie with molten center</p>
+                        </div>
+                        <span class="menu-row-price">₹130</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Kesar Pista Matka Kulfi</h4>
+                            <p>Traditional slow-reduced frozen milk kulfi with saffron and pistachios</p>
+                        </div>
+                        <span class="menu-row-price">₹90</span>
+                    </div>
+                </div>
+
+                <!-- Category 4: Beverages -->
+                <div class="menu-category-block" data-category="beverages">
+                    <div class="category-heading">
+                        <span>☕ Beverages</span>
+                        <span class="count">3 Items</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Special Masala Chai</h4>
+                            <p>Fresh brewed Assam tea infused with ginger, green cardamom, and cloves</p>
+                        </div>
+                        <span class="menu-row-price">₹40</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Royal Sweet Punjabi Lassi</h4>
+                            <p>Chilled thick churned yogurt drink topped with fresh malai and nuts</p>
+                        </div>
+                        <span class="menu-row-price">₹70</span>
+                    </div>
+
+                    <div class="menu-row">
+                        <div class="menu-row-info">
+                            <h4><span class="veg-icon"></span> Fresh Mint Lime Soda</h4>
+                            <p>Crisp sparkling soda with fresh squeezed lemon, crushed mint, and rock salt</p>
+                        </div>
+                        <span class="menu-row-price">₹60</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Table Booking Form Section -->
+    <section id="book-table" class="booking-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="kicker">Online Table Reservation</span>
+                <h2>Book A Table Online</h2>
+                <div class="gold-line"></div>
+                <p>Instant table confirmation powered by JavaScript. Zero reservation fees.</p>
+            </div>
+
+            <div class="booking-grid">
+                <!-- Left Info Box -->
+                <div class="booking-info-box">
+                    <h3>Why Reserve With Us?</h3>
+                    <p>Skip the waiting queue on busy weekends and celebrations. Our team keeps your preferred table dressed and ready 10 minutes prior to your time.</p>
+
+                    <ul class="perks-list">
+                        <li>
+                            <div class="perk-check">✓</div>
+                            <div class="perk-text">
+                                <strong>Instant Confirmation ID</strong>
+                                <span>Get your digital reservation reference and table assignment immediately</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="perk-check">✓</div>
+                            <div class="perk-text">
+                                <strong>Choice of Seating Ambience</strong>
+                                <span>Pick Main AC Dining Hall, Candlelight Rooftop, or Family Corner</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="perk-check">✓</div>
+                            <div class="perk-text">
+                                <strong>Zero Booking Charges</strong>
+                                <span>100% free reservation with easy grace-period policy</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="direct-contact">
+                        <strong>Need Immediate Assistance or Large Party Hall?</strong>
+                        <a href="tel:9876543210">📞 98765 43210</a>
+                        <p style="font-size: 12px; color: #777; margin-top: 4px;">Address: Foodie Restaurant, Bhopal, Madhya Pradesh</p>
+                    </div>
+                </div>
+
+                <!-- Right Booking Form (JavaScript Powered) -->
+                <div class="booking-form-box">
+                    <h3>Table Reservation Form</h3>
+                    <form id="tableBookingForm" novalidate>
+                        
+                        <!-- Full Name & Phone -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookName">Full Name <span class="required">*</span></label>
+                                <input type="text" id="bookName" name="bookName" placeholder="e.g. Rahul Sharma" required>
+                                <span id="nameErr" class="field-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="bookPhone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="bookPhone" name="bookPhone" maxlength="10" placeholder="10-digit mobile number" required>
+                                <span id="phoneErr" class="field-error"></span>
+                            </div>
+                        </div>
+
+                        <!-- Email & Guests -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookEmail">Email Address (Optional)</label>
+                                <input type="email" id="bookEmail" name="bookEmail" placeholder="rahul@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="bookGuests">Number of Guests <span class="required">*</span></label>
+                                <select id="bookGuests" name="bookGuests" required>
+                                    <option value="1">1 Person (Solo Dining)</option>
+                                    <option value="2">2 Persons (Couple Table)</option>
+                                    <option value="3">3 Persons</option>
+                                    <option value="4" selected>4 Persons (Family Table)</option>
+                                    <option value="6">6 Persons (Large Table)</option>
+                                    <option value="8">8 Persons (Party Booth)</option>
+                                    <option value="12">12+ Persons (Celebration)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Date & Time Slot -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="bookDate">Date <span class="required">*</span></label>
+                                <input type="date" id="bookDate" name="bookDate" required>
+                                <span id="dateErr" class="field-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="bookTime">Time Slot <span class="required">*</span></label>
+                                <select id="bookTime" name="bookTime" required>
+                                    <option value="">Select Time Slot</option>
+                                    <optgroup label="Lunch Hours">
+                                        <option value="12:30 PM">12:30 PM</option>
+                                        <option value="01:30 PM">01:30 PM</option>
+                                        <option value="02:30 PM">02:30 PM</option>
+                                    </optgroup>
+                                    <optgroup label="Dinner Hours">
+                                        <option value="07:00 PM">07:00 PM</option>
+                                        <option value="07:30 PM" selected>07:30 PM</option>
+                                        <option value="08:30 PM">08:30 PM</option>
+                                        <option value="09:30 PM">09:30 PM</option>
+                                        <option value="10:15 PM">10:15 PM</option>
+                                    </optgroup>
+                                </select>
+                                <span id="timeErr" class="field-error"></span>
+                            </div>
+                        </div>
+
+                        <!-- Seating Preference -->
+                        <div class="form-group">
+                            <label for="bookSeating">Seating Preference</label>
+                            <select id="bookSeating" name="bookSeating">
+                                <option value="Main Dining Hall (AC)">Main Dining Hall (AC & Soft Ambient Music)</option>
+                                <option value="Candlelight Rooftop">Candlelight Rooftop (Evening Skyline & Breeze)</option>
+                                <option value="Family Lounge Corner">Family Lounge Corner (Spacious & Quiet)</option>
+                                <option value="Private Executive Booth">Private Executive Booth</option>
+                            </select>
+                        </div>
+
+                        <!-- Special Notes -->
+                        <div class="form-group">
+                            <label for="bookNotes">Special Requests (Optional)</label>
+                            <textarea id="bookNotes" name="bookNotes" rows="2" placeholder="Birthday celebration decoration, baby chair, spicy preference..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Confirm Table Reservation</button>
+                        <p style="text-align: center; font-size: 11px; color: #777; margin-top: 10px;">
+                            🔒 No advance payment required. Table held for 15 minutes grace period.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Confirmation Modal Receipt (JavaScript Controlled) -->
+    <div id="reservationModal" class="modal-backdrop">
+        <div class="modal-card">
+            <div class="modal-top">
+                <div class="modal-icon">✓</div>
+                <h3>Table Reserved Successfully!</h3>
+                <p>Your table has been reserved at Foodie Restaurant, Bhopal.</p>
+            </div>
+
+            <div class="receipt-sheet" id="receiptBody">
+                <!-- Filled dynamically by JavaScript -->
+            </div>
+
+            <div class="modal-btns">
+                <button type="button" id="printSlipBtn" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">Print Slip</button>
+                <button type="button" id="closeModalBtn" class="btn btn-primary">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. Footer -->
+    <footer id="about" class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 style="font-size: 20px;">🍴 Foodie Restaurant</h4>
+                    <p>Serving authentic royal Indian vegetarian cuisine with rich flavors, pure desi ghee, and warm traditional hospitality.</p>
+                    <p style="color: var(--gold); font-weight: bold; font-size: 12px;">🌿 100% Pure Vegetarian</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Details</h4>
+                    <p>📞 Phone: <a href="tel:98765XXXXX">98765 XXXXX</a></p>
+                    <p>📍 Location: Foodie Restaurant, Bhopal, Madhya Pradesh</p>
+                    <p>✉️ Email: info@foodierestaurant.com</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Dining Hours</h4>
+                    <p><strong>Open 7 Days a Week</strong></p>
+                    <p>Lunch: 12:00 PM – 03:30 PM</p>
+                    <p>Dinner: 07:00 PM – 11:30 PM</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Chef's Favourites</h4>
+                    <p>• Hyderabadi Veg Biryani (₹240)</p>
+                    <p>• Butter Paneer Makhani (₹230)</p>
+                    <p>• Paneer Tikka (₹180)</p>
+                    <p>• Warm Chocolate Brownie (₹130)</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Foodie Restaurant, Bhopal. All rights reserved. • Delicious Food • Fresh Ingredients • Great Taste</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

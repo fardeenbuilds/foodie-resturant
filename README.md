@@ -20,19 +20,6 @@ Foodie Restaurant is a responsive restaurant frontend website built using HTML, 
 - CSS3 – Styling and responsive layout
 - JavaScript – Search, filtering, form validation, and booking interactions
 
-## 📁 Project Structure
-
-```text
-Foodie-Restaurant/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-└── images/
-    ├── hyderabadi-biryani.jpg
-    └── butter-paneer.jpg
-```
 
 ## 📸 Website Sections
 

@@ -47,6 +47,7 @@ The main objective of this project is to practice front-end web development and 
 
 B.Tech – Computer Science & Engineering
 
-LIVE DEMO
+## **🌐 LIVE DEMO**
 
-https://fardeenbuilds.github.io/foodie-resturant/
+<strong><a href="https://fardeenbuilds.github.io/foodie-resturant/">Click Here to Visit Foodie Restaurant</a></strong>
+
